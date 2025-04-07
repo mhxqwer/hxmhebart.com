@@ -1,0 +1,12 @@
+﻿@charset "utf-8";
+img { border: 0px; }
+.bannerbox { width: 585px; height: 260px; overflow: hidden; margin: 0px auto;  border:solid 2px #a8a9a3;   }
+#focus { width: 585px; height: 260px; clear: both; overflow:visible; position: relative; float: left;  }
+    #focus ul { width: 585px; height: 239px; float: left; position: absolute; clear: both; padding: 0px; margin: 0px; }
+        #focus ul li { float: left; width: 585px; height:1000px; overflow: hidden; position: relative; padding: 0px; margin: 0px; }
+    #focus .preNext { width: 550px; height: 239px; position: absolute; top: 2px; cursor: pointer; }
+    #focus .pre { left: 0; background: url(../images/sprite.png) no-repeat left center; }
+    #focus .next { right: 0; background: url(../images/sprite1.png) no-repeat right center; }
+ 
+ 
+ 
